@@ -1,0 +1,114 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ArchitectureExplorer (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorer Win64 Debug Build",
+			"program": "C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\Binaries\\Win64\\ArchitectureExplorer-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorer (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorer Win64 DebugGame Build",
+			"program": "C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\Binaries\\Win64\\ArchitectureExplorer-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorer (Development)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorer Win64 Development Build",
+			"program": "C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\Binaries\\Win64\\ArchitectureExplorer.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorer (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorer Win64 Shipping Build",
+			"program": "C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\Binaries\\Win64\\ArchitectureExplorer-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorer (Test)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorer Win64 Test Build",
+			"program": "C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\Binaries\\Win64\\ArchitectureExplorer-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorerEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorerEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\ArchitectureExplorer.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorerEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorerEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\ArchitectureExplorer.uproject",
+				"-debug"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ArchitectureExplorerEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ArchitectureExplorerEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"C:\\Users\\pract\\Documents\\repos\\VR\\1_Architecture_Explorer\\ArchitectureExplorer\\ArchitectureExplorer.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.18",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.18\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		}
+	]
+}
